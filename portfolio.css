@@ -1,0 +1,82 @@
+/*Entire Page*/
+    body
+    {
+        background-color: #EEE7DA;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h2{
+        font-weight: bold;
+    }
+/*NavBar*/
+    .navbar-brand
+    {
+        font-family: 'Merriweather', serif;
+        font-weight: bold; 
+        font-size: 3rem; 
+        line-height: 1.5;
+        color: #AFC8AD; 
+    }
+    .navbar
+    {
+        background-color: #88AB8E;
+    }
+    .logo
+    {
+     border-radius: 75%;
+    }
+/*About Me*/
+    #about
+    {
+        text-align: center;
+        justify-content: space-between;
+    }
+    .profile
+    { 
+        border-radius: 50%; 
+        width: 500px; 
+        height: 500px;
+        object-fit: cover; 
+    }
+
+ 
+ 
+ /*Projects*/
+ .card-title
+ {
+    font-weight: bold;
+ }
+ /*Hobbies*/
+ /* Carousel image sizes */
+        #hobbyCarousel .carousel-item img {
+            width: 100%; /* responsive width */
+            height: 500px; /* keep the height fixed height */
+            object-fit: cover; /* don't want the image to be distorted */
+        }
+
+
+ /*Footer*/
+        #footer
+        {
+          background-color: #AFC8AD;
+          padding: 7% 15%; 
+          text-align: center;
+        }
+        
+        .social-icon
+        {
+          margin: 30px 20px; 
+            size: 5rem; 
+        }
+        
+        /*Media Query Section*/
+        @media (max-width: 1028px)
+        {
+        .title-image{
+          position: static; 
+          transform: rotate(0); 
+        }
+        #title
+          {
+          text-align: center; 
+          }
+        }
